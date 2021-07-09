@@ -22,7 +22,7 @@ const Test = () => {
 
     return (
         <TestStyled className='Test'>
-            Test 
+            Nurbol Batkhan 
         </TestStyled>
     );
 }
