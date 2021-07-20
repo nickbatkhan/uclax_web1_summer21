@@ -25,11 +25,39 @@ const Homework = () => {
             </Essay>
             <Essay
                 number = { 2 }
-                question='Question 2'
+                question='Explain the difference between HTML, CSS JS'
             >
-                My long winded Answer 2
-            </Essay>
+                <p>
+                    If we imagine creating a website as building a house, HTML is the way the skeleton of the house, CSS is how the rooms are located and designed such as colors of the floor. JS is more advanced part of the building such as elevator.
+                </p>
+                <p>
+                    The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It instructs the browser on how to display text and images in a web page. You can view an HTML file using any browser on any type of computer.
+                </p>
+                <p>
+                    Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of the document written in markup language. It handles the page’s layouts, colors, fonts, cell paddling of the table cells, the style, and colors of the table’s border, and the paddling around images or other objects.
 
+                </p>
+                <p>
+                    Javascript (JS) is a text based programming language used both on the client-side and server side that allows to make web pages interactive. In another word, JS makes the website responsive and interactive. For instance, google.com, when you type what you are searching and it gets response with the answers, this is the magic of the Javascript.
+                </p>
+            </Essay>
+            <Essay
+                number = { 3 }
+                question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
+            >
+                <p>
+                    paragraph 1
+                </p>
+                <p>
+                    paragraph 2
+                </p>
+                <p>
+                    Paragraph 3
+                </p>
+                <p>
+                    Paragraph 4
+                </p>
+            </Essay>
 
         </div>
     );
