@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
 import Homework from '../Homework/Homework.jsx'
-import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
+// import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Main = () => {
     return (
