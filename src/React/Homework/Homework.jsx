@@ -46,21 +46,39 @@ const Homework = () => {
                 question='What are Single Page Apps (SPAs)? How do they differ from traditional multi-page Web Sites?'
             >
                 <p>
-                    paragraph 1
+                    Instead of navigating the user to different pages, single-page apps present the contents in an easy, elegant and effective way as it loads all the contents on just one single page.
                 </p>
                 <p>
-                    paragraph 2
+                    Being on just one page, SPAs are faster than traditional multi-page web sites.The reason is that when you enter a single-page application website, you download a page only one time and the components of the page change and load only when it is required. 
                 </p>
                 <p>
-                    Paragraph 3
+                    Benefits of single page apps are smooth and fast, they are easy to develop and deploy, SPAs are easier to debug, can be transited to mobile apps by reusing the same backend code. Major drawbacks are performs poor on the search engine and less secure compared to traditional multi-page apps because of its cross-site scripting.
                 </p>
                 <p>
-                    Paragraph 4
+                    On the other hand, multi-page applications are the traditional web applications that reload the entire page and displays the new one when a user interacts with the web app. Major drawbacks are comparatively complex development and coupled backend and frontend.
+                </p>
+            </Essay>
+
+            <Essay
+                number = { 4 }
+                question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
+            >
+                <p>
+                    
+                </p>
+                <p>
+                    
+                </p>
+                <p>
+                    
+                </p>
+                <p>
+                    
                 </p>
             </Essay>
 
         </div>
     );
-}
+} 
 
 export default Homework;
