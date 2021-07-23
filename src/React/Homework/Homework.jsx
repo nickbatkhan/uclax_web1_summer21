@@ -1,10 +1,12 @@
 import React from 'react';
 
 import Essay from './Essay.jsx'
+import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Homework = () => {
     return (
         <div>
+            <SunAndMoon />
             <h2>HOMEWORK</h2>
             <Essay
                 number = { 1 }
