@@ -66,16 +66,17 @@ const Homework = () => {
                 question='What is the difference between Web Designer, Front End Developer and Back End Developer?'
             >
                 <p>
-                    
+                    Web Designer looks in to the visual look of a website and interactive design work. Web Designers plan, create and code web pages. many of which combine text with sounds, pictures, graphics, and video clips. Web designer is responsible for creating the design and layout of a website.
                 </p>
                 <p>
-                    
+                    Front End Developer, ensures the website visitors can easily interact with the page. They do this through the combination of design, technology, and programming to code a website's apprearance, as well as taking care of debugging. Some technologies are HTML, CSS and JavaScipt.
                 </p>
                 <p>
-                    
+                    Back End Developer is responsible for server-side web application logic and integration and security of the work front-end developers do. Back-end developers are usually write the web services and APIs used by front end delopers and mobile application developers.
                 </p>
+                    Overall, their jobs are different but interacts with each other due to they are working on one product. Back end works on the server side and makes sure that its safe enougn.
                 <p>
-                    
+                    Finally, web designer, front end developer and back end developer, they all work on one thing and final product is one. Its important in practice that everyone is working together.
                 </p>
             </Essay>
 

@@ -2,7 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-import Homework from '../Homework/Homework.jsx'
+import Welcome from '../Pages/Welcome/Welcome.jsx';
+import Login from '../Pages/Login/Login.jsx';
+import Contact from '../Pages/Contact/Contact.jsx';
+import Services from '../Pages/Services/Services.jsx';
+import Homework from '../Homework/Homework.jsx';
+
 // import SunAndMoon from '../SunAndMoon/SunAndMoon.jsx';
 
 const Main = () => {
@@ -11,19 +16,19 @@ const Main = () => {
             <h1>The Main Content</h1>
             <Switch>
                 <Route path='/services'>
-                    SERVICES
+                    <Services />
                 </Route>
                 <Route path='/contact'>
-                    CONTACT
+                    <Contact />
                 </Route>
                 <Route path='/login'>
-                    LOGIN
+                    <Login />
                 </Route>
                 <Route path='/homework'>
                     <Homework />
                 </Route>
                 <Route path='/' exact>
-                    WELCOME
+                    <Welcome />
                 </Route>
             </Switch>
         </MainStyled>
@@ -37,5 +42,9 @@ const MainStyled = styled.nav`
     background-color: #6c8038;
     /* color: white; */
     padding: 10px;
-    text-align: center;
+    
+    div {
+        border: solid 2px white;
+        padding: 20px;
+    }
 `;
