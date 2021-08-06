@@ -128,6 +128,33 @@ const Homework = () => {
                     Best use of JPG is Digital Images & photography, for GIF: sample animations, for PNG transparent images, iconic graphics and for SVG logos, line art, icons & animations. GIF has 256 colors which is relatively smaller than others. JPG has no transparency, GIF is binary, PNG is yes, SVG is yes. JPG is best for photos and PNG is good. 
                 </p>
             </Essay>
+            <Essay
+                number = { 7 }
+                question='Define the following roles: Project Manager, Business Analyst, Scrum Master, UX designer, Web Developer/Engineer, Quality Assurance Tester, and DevOps.'
+            >
+                <p>
+                    Project Manager: they are in charge of planning, resources, and projects. 
+                </p>
+                <p>
+                    Business Analyst: Analyzes prior and existing business data to improve decision making process.
+                </p>
+                <p>
+                    Scrum Master: Manages communication between team members, keeps the sprint moving along - agile processes. 
+                </p>
+                <p>
+                    UX designer: Research user analysis, usability, user flow and journeys, content strategy. They handle the visual design. They also make research on how the users use the website more efficient way.
+                </p>
+                <p>
+                    Web Developer/Engineer: Designing and developing web application. Functionality, features and security.
+                </p>
+                <p>
+                    Quality Assurance Tester: Quality Assurance automated and manual test. Ensures the integrity of existing features work, and ensure new features.
+                </p>
+                <p>
+                    DevOps: Connects development and operations team - creates hardware and software to deliver application.
+                </p>
+                
+            </Essay>
         </div>
     );
 } 
