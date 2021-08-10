@@ -155,6 +155,43 @@ const Homework = () => {
                 </p>
                 
             </Essay>
+
+            <Essay
+                number = { 8 }
+                question='What is considered the right size for an image or video asset?'
+            >
+                <p>
+                    Here are the some ideas: Depends on the content/space dimentions, lower quality, avatars for example, vs hero vs thumbinals. 
+                </p>
+                <p>
+                    Resolution would depend on to meet the requirements of video, perhaps defaul to 16x9.
+                </p>
+                <p>
+                    File size - keeping it at small as possible unless necessary.
+                </p>
+                <p>
+                    Hero 1500 x 2500 pixels
+                </p>
+                <p>
+                    30-40 seconds long - duration
+                </p>
+                <p>
+                    25 - 30 MB max
+                </p>
+                <p>
+                    Optimize for UX and SEO, accessibility
+                </p>
+                <p>
+                    To summarize, there is no correct answer. The image and video size depends on ones mission and what needs to be accomplished.
+                </p>
+                
+            </Essay>
+
+
+
+
+
+            
         </div>
     );
 } 
