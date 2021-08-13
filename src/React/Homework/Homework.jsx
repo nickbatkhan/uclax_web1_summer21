@@ -187,7 +187,33 @@ const Homework = () => {
                 
             </Essay>
 
-
+            <Essay
+                number = { 9 }
+                question='What it means for a company to be Agile. What is the purpose of using Agile, and its Pros and Cons.'
+            >
+                <p>
+                    Agility of the company means that adapting quickly to market changes, customer and client demands, and its own accelerated timelines both internally and externally. Respond rapidly and flexibly to customer demands,  . Adapt and lead change in a productive and cost-effective way without compromising quality. Continuously be at a competitive advantage.
+                </p>
+                <p>
+                    Pros:
+                    Superior quality product
+                    Customer satisfaction
+                    Better control
+                    Improved project predictability
+                    Reduced risks
+                    Increased flexibility
+                    Continuous improvement
+                    Improved team morale
+                </p>
+                <p>
+                    Cons:
+                    Poor resource planning
+                    Limited documentation
+                    Fragmented output
+                    No finite end
+                    Difficult measurement.
+                </p>
+            </Essay>
 
 
 

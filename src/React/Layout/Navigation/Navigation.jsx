@@ -39,3 +39,4 @@ const NavigationStyled = styled.div`
         right: 20px;
     }
 `;
+
