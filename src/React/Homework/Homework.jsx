@@ -193,6 +193,8 @@ const Homework = () => {
             >
                 <p>
                     Agility of the company means that adapting quickly to market changes, customer and client demands, and its own accelerated timelines both internally and externally. Respond rapidly and flexibly to customer demands,  . Adapt and lead change in a productive and cost-effective way without compromising quality. Continuously be at a competitive advantage.
+                    In computer science, agile is moving in smaller increments, to implement those changes on a much faaster cycle.
+                    Waterfall is the opposite of Agile.
                 </p>
                 <p>
                     Pros:
@@ -214,10 +216,6 @@ const Homework = () => {
                     Difficult measurement.
                 </p>
             </Essay>
-
-
-
-            
         </div>
     );
 } 

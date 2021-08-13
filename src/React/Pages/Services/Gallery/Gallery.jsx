@@ -5,16 +5,20 @@ import { mediaQueries } from 'common/mediaQueries/mediaQueries.js';
 
 import Item from './Item.jsx';
 
-const Gallery = () => {
+const Gallery = ({services, curCat }) => {
 
     return (
         <GalleryStyled className='Gallery'>
-            <Item />
-            <Item /> 
-            <Item /> 
-            <Item /> 
-            <Item /> 
-            <Item />   
+            {
+                services
+                    .filter((service)=> {
+                        return (curCat === 'All' || service.category === curCat);
+                    })
+                
+                    .map((service, idx) => {
+                        return <Item key= {idx} service={service} />
+                    })
+            }   
         </GalleryStyled>
     );
 }
@@ -26,13 +30,14 @@ const GalleryStyled = styled.div`
 
     display: grid;
 
-    grid-column-gap: 2%;
-    grid-row-gap: 20px;
+    /* grid-column-gap: 2%;
+    grid-row-gap: 20px; */
+    grid-gap: 20px;
 
-    grid-template-columns: repeat(auto-fill, 48%);
+    grid-template-columns: repeat(2, 1fr);
 
     @media ${mediaQueries.lgUp} {
-        grid-template-columns: repeat(auto-fill, 23%);
+        grid-template-columns: repeat(4, 1fr);
     }
 
 `;
