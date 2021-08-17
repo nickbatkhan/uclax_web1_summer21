@@ -216,6 +216,28 @@ const Homework = () => {
                     Difficult measurement.
                 </p>
             </Essay>
+
+            <Essay
+                number = { 10 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                
+                <p>
+                    A test environment is any space in which software undergoes a series of experimental uses.
+                </p>
+                <p>
+                    local environment: local environments.
+                </p>                
+                <p>
+                    Dev or Development: it's the environment used during development of the application. Working code copy. Changes made by developers are deployed here so integration and features can be tested. This environment is rapidly updated and contains the most recent version of the application.
+                </p>
+                <p>
+                    A QA environment is where you test your upgrade procedure against data, hardware, and software that closely simulate the Production environment and where you allow intended users to test the resulting application.
+                </p>
+                <p>
+                    A Production environment is where the application is actually available for use. This is the currently released version of the application, accessible to the client/end users. This version preferably does not change except for during scheduled releases.    
+                </p>
+            </Essay>
         </div>
     );
 } 

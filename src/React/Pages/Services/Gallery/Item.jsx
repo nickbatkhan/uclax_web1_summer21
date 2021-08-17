@@ -1,12 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Lightbox from 'React/Components/Lightbox/Lightbox.jsx'
+
 const Item = ({ service }) => {
+
+    const LightboxContent = () => {
+        return (
+            <div>
+                <img src={ service.image } alt= {service.title} />
+                <h3>{ service.title }</h3>
+                <h5>{ service.cost }</h5>
+                <h5>{ service.description }</h5>
+            </div>
+        );
+    }
 
     return (
         <ItemStyled className='Item'>
-            <img src={ service.image } alt={ service.title } />
-            <h3>{service.title}</h3> 
+            <Lightbox LightboxContent = { LightboxContent }>
+                <img src={ service.image } alt={ service.title } />
+            <h3>{service.title}</h3>
+            </Lightbox>
         </ItemStyled>
     );
 }
