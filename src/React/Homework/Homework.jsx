@@ -226,13 +226,16 @@ const Homework = () => {
                     A test environment is any space in which software undergoes a series of experimental uses.
                 </p>
                 <p>
-                    local environment: local environments.
+                    A local environment: local environments, developer's system. Its not being touched except other developers.
                 </p>                
                 <p>
                     Dev or Development: it's the environment used during development of the application. Working code copy. Changes made by developers are deployed here so integration and features can be tested. This environment is rapidly updated and contains the most recent version of the application.
                 </p>
                 <p>
                     A QA environment is where you test your upgrade procedure against data, hardware, and software that closely simulate the Production environment and where you allow intended users to test the resulting application.
+                </p>
+                <p>
+                    UAT: User Acceptance Testing: Client test the app, before it goes om the wild. 
                 </p>
                 <p>
                     A Production environment is where the application is actually available for use. This is the currently released version of the application, accessible to the client/end users. This version preferably does not change except for during scheduled releases.    

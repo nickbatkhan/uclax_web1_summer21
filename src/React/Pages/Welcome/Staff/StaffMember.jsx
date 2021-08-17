@@ -15,10 +15,10 @@ const StaffMember = ({member}) => {
     }
 
     return (
-        <StaffMemberStyled className='StaffMember'>
+        <StaffMemberStyled className='StaffMember' width={'300px'}>
             <Lightbox LightboxContent = { LightboxContent }>
                 <img src= { member.image } alt={ member.name } />
-                <h3> { member.name } </h3>
+            <h3> { member.name } </h3>
             </Lightbox>
             
         </StaffMemberStyled>
