@@ -241,7 +241,28 @@ const Homework = () => {
                     A Production environment is where the application is actually available for use. This is the currently released version of the application, accessible to the client/end users. This version preferably does not change except for during scheduled releases.    
                 </p>
             </Essay>
+
+            <Essay
+                number = { 11 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                
+                <p> 
+                    On html we use the img element for images. Ex: img src=“apple.jpg> alternatively "img src=“https://www.example.com/images/apple.jpg">".
+                </p>34
+                <p>
+                    You can also use CSS to embed images into webpages (and JavaScript, but that's another story entirely). The CSS “background-image” property, and the other background-* properties, are used to control background image placement. For example, to place a background image on every paragraph on a page, you could do this:
+                </p>
+                <p>
+                    CSS: background-image example:
+                    {/* P {
+                        background-image: url(image/apple.jpg”);
+                    } */}
+                    The resulting embedded image is arguably easier to position and control than HTML images.
+                </p>
+            </Essay>
         </div>
+        
     );
 } 
 
