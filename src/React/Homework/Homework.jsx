@@ -312,6 +312,10 @@ const Homework = () => {
                 }
                 </script> */}
                 </p>
+
+                <p>
+                    Specifity is 2 or more colflicting rules, the browser dertermines which one to chose.
+                </p>
             </Essay>
         </div>
         

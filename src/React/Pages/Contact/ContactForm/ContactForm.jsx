@@ -6,7 +6,26 @@ import UniversalForm from 'React/Components/UniversalForm/UniversalForm.jsx';
 const ContactForm = () => {
 
     const defaultFormData = {
-        fullname: 'Dummy Data',
+        controls: [
+            {
+                id: 'fullname',
+                label: 'Full name',
+                value: '',
+                type: 'text',
+            },
+            {
+                id: 'email',
+                label: 'Email',
+                value: '',
+                type: 'text',
+            },
+            {
+                id: 'message',
+                label: 'Message',
+                value: '',
+                type: 'texarea',
+            },
+        ]
     }
 
     return (
