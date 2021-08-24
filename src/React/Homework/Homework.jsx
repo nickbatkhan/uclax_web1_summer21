@@ -261,9 +261,61 @@ const Homework = () => {
                     The resulting embedded image is arguably easier to position and control than HTML images.
                 </p>
             </Essay>
+
+            <Essay
+                number = { 12 }
+                question= {"'What is the difference between ID's, Classes and Tags? How does Specificity play a role in the selection of HTML elements (both in CSS and JS)?'"}
+            >
+                
+                <p> 
+                Id is used for single elements that appear on the page for only once (e.g. header, footer, menu). In another word “id” is unique in a page and can only apply to at most one element. “id” can have only one unique value. You cannot have more than one element with the same id in an HTML document.
+                The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}.
+                {/* {#myHeader {
+                    background-color: lightblue;
+                    color: black;
+                    padding: 40px;
+                    text-align: center;
+                }} */}
+                </p>
+                <p>
+                Class is used for single or multiple elements that appear on the page for once or more than once (e.g. paragraphs, links). “class” selector can apply to multiple elements. “class” can have more than one value.
+
+                /* Style all elements with the class name "city" */
+                {/* .city {
+                    background-color: tomato;
+                    color: white;
+                    padding: 10px;
+                    } */}
+
+                </p>
+                <p>
+                After writing content, there will be a need to mark it up with HTML to do things like distinguish the title from the paragraphs. Most of this is done by inserting tags throughout the content. 
+
+                    <li>Html: root element tag</li>
+                    <li>Head: head of the web page from the content</li>
+                    <li>Title: texts gives the overview of the website</li>
+                    <li>Body: actual content of the website</li>
+                    <li>H1: creates a title by making text bigger and making it bold.</li>
+                    <li>P: specify paragraph</li>
+                    <li>A: let us create a link with its here attribute</li>
+                    <li>Div: group multiple pieces of content into a single container.</li>
+                    <li>Span: span is like a smaller version of div, style or interact with inline content.</li> 
+
+                If you have multiple elements with the same ID, you'll only run into problems when using JavaScript to access those elements. For example, if you were to do document. getElementById('duplicateId') , you would only get back one element instead of two. Other than that, the browser will render the page just fine.
+
+
+                The id attribute can also be used by JavaScript to perform some tasks for that specific element. JavaScript can access an element with a specific id with the getElementById() method:
+
+                {/* <script>
+                function displayResult() {
+                  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+                }
+                </script> */}
+                </p>
+            </Essay>
         </div>
         
     );
-} 
+}
 
 export default Homework;
