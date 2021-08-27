@@ -6,7 +6,7 @@ const Content = ({chosenTab}) => {
     return (
         <ContentStyled className='Content'>
             <div className="image">
-                <img src= { chosenTab.image } alt={ chosenTab.image } />
+                <img src= { chosenTab.image } alt={ chosenTab.title } />
             </div> 
             <div className="info">
                 <h3>{ chosenTab.title }</h3>
