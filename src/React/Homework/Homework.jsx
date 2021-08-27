@@ -249,7 +249,7 @@ const Homework = () => {
                 
                 <p> 
                     On html we use the img element for images. Ex: img src=“apple.jpg> alternatively "img src=“https://www.example.com/images/apple.jpg">".
-                </p>34
+                </p>
                 <p>
                     You can also use CSS to embed images into webpages (and JavaScript, but that's another story entirely). The CSS “background-image” property, and the other background-* properties, are used to control background image placement. For example, to place a background image on every paragraph on a page, you could do this:
                 </p>
@@ -316,6 +316,29 @@ const Homework = () => {
                 <p>
                     Specifity is 2 or more colflicting rules, the browser dertermines which one to chose.
                 </p>
+            </Essay>
+
+            <Essay
+                number = { 11 }
+                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+            >
+                
+                <p> 
+                    CSS preprocessors are scripting languages that extend the default capabilities of CSS. A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. There are many CSS preprocessors to choose from.
+                </p>
+                <p> 
+                    CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility. Each CSS preprocessor has its own syntax that they compile into regular CSS so that browsers can render it on the client side.
+                </p>
+                <p> 
+                    Examples are: Sass or Syntactically Awesome Style Sheet, and LESS or Learner Style Sheets
+                </p>
+                <p> 
+                    Styled-components is a library for React that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.you're actually creating a normal React component, that has your styles attached to it.
+                </p>
+                <p> 
+                    Seperation of concerns: HTML, CSS and JavaScript are suppose to be separated. I think no violation of separation of concerns. Its all about design and composition. There are patterns that help us to compose and logically separate our apps. We can still write well organized programs with clearly defined responsibilities.
+                </p>
+                
             </Essay>
         </div>
         
