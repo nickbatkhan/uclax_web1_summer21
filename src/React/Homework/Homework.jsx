@@ -320,7 +320,7 @@ const Homework = () => {
 
             <Essay
                 number = { 13 }
-                question='What are testing environments? What is the difference between Local, Dev, QA and Production?'
+                question='What is a CSS Preprocessor? What are some examples? In React, what are styled components? How do Styled Components violate separation of concerns?'
             >
                 
                 <p> 
@@ -336,7 +336,7 @@ const Homework = () => {
                     Styled-components is a library for React that allows you to use component-level styles in your application that are written with a mixture of JavaScript and CSS using a technique called CSS-in-JS.you're actually creating a normal React component, that has your styles attached to it.
                 </p>
                 <p> 
-                    Seperation of concerns: HTML, CSS and JavaScript are suppose to be separated. I think no violation of separation of concerns. Its all about design and composition. There are patterns that help us to compose and logically separate our apps. We can still write well organized programs with clearly defined responsibilities.
+                    Seperation of concerns: HTML, CSS and JavaScript are suppose to be separated. I think it violates the separation of concerns. It puts HTML, CSS and JS into a single space/components.
                 </p>
                 
             </Essay>

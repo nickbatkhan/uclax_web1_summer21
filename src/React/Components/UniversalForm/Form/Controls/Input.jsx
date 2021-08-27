@@ -13,9 +13,11 @@ const Input = ({control}) => {
         updateControl(control.id, e.target.value, dispatch, state);
     }
 
+    const className = (!control.validation.isValid) ? 'Input error':'Input';
+
     return (
         <InputStyled 
-            className='Input'
+            className= {className}
             type= {control.type}
             id= {control.id}
             value={ control.value }
@@ -37,6 +39,6 @@ const InputStyled = styled.input`
         background-color: #eee;
     }
     &.error {
-        border: solid 2 px red;
+        border: solid 2px red;
     }
 `;
