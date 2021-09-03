@@ -16,7 +16,7 @@ const ContactForm = () => {
             {
                 id: 'fullname',
                 label: 'Full name',
-                value: '',
+                value: 'Nurbol',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -27,7 +27,7 @@ const ContactForm = () => {
             {
                 id: 'email',
                 label: 'Email',
-                value: '',
+                value: 'nurbol@gmail.com',
                 type: 'text',
                 validation: {
                     isValid: true,
@@ -38,7 +38,7 @@ const ContactForm = () => {
             {
                 id: 'message',
                 label: 'Message',
-                value: '',
+                value: 'This is my really cool message',
                 type: 'textarea',
                 validation: {
                     isValid: true,
