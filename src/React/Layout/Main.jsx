@@ -39,7 +39,7 @@ export default Main;
 
 
 const MainStyled = styled.nav`
-    background-color: #6c8038;
+    background-color: white;
     /* color: white; */
     padding: 10px;
     

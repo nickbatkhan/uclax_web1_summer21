@@ -340,6 +340,45 @@ const Homework = () => {
                 </p>
                 
             </Essay>
+            <Essay
+                number = { 14 }
+                question='Final Project: Pick a Subject Matter'
+            >
+                <p> 
+                    Using the knowledge learned over the last 8 weeks, I decided to make a website to my sister's company. My syster operated a small CPA, accounting and taxation company.
+                    Who is the client? My sister.
+                    What is it's purpose? Taxation and Accounting company website.
+                    Why did you choose this subject? To help my sister to build her website.
+                </p>
+            </Essay>
+
+            <Essay
+                number = { 15 }
+                question='What is the difference between Web Hosts, Domains, and FTP?'
+            >
+                <p> 
+                    Webs hosts is an online place where you can make your website to available to anyone in the internet. A web hosting service is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web.
+                </p>
+                <p>
+                    Domain or the domain name is the address to the website. A domain name is an identification string that defines a realm of administrative autonomy, authority or control within the Internet.
+                </p>
+                <p>
+                    FTP or File Transfer Protocol is the tool to transfer computer files from a server to a client on a computer network. One of the most common FTPs are FileZilla, Cyberduck and Transmit.
+                </p>
+            </Essay>
+            <Essay
+                number = { 16 }
+                question='What is a Package Manager (e.g. NPM, Composer)? How does it play a role in software development?'
+            >
+                <p> 
+                    A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.
+                    Some common package managers are NPM, Anaconda and Homebrew. 
+                </p>
+                <p>
+                npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry
+                </p>
+            </Essay>
+        
         </div>
         
     );
