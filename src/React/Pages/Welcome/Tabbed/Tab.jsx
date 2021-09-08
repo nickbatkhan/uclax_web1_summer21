@@ -33,10 +33,10 @@ const TabStyled = styled.div`
     /* TRBL */
     border-radius: 5px 5px 0px, 0px;
 
-    background-color: #004646;
+    background-color: maroon;
 
     &.chosen {
-        background-color: teal;
+        background-color: maroon;
     }
 
 `;

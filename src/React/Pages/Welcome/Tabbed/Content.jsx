@@ -21,7 +21,7 @@ export default Content;
 const ContentStyled = styled.div`
 
     padding: 20px;
-    background-color: teal;
+    background-color: white;
     min-height: 200px;
 
     display: flex;

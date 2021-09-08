@@ -8,7 +8,7 @@ const Staff = () => {
     return (
         <StaffStyled className='Staff'>
             <div className="inset-container">
-                <h2>Staff</h2>
+                <h2>Our Staff Members</h2>
                 <StaffMembers/>
             </div>
         </StaffStyled>

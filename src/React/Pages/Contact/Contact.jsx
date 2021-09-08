@@ -11,7 +11,7 @@ const Contact = () => {
 
     return (
         <ContactStyled className='Contact'>
-            <h1>Contact page</h1>
+            <h1>Ready to make a move or do you have any question</h1>
             
             <div className='row'>
                 <div className='col'>

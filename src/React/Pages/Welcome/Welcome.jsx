@@ -10,7 +10,8 @@ const Welcome = () => {
 
     return (
         <WelcomeStyled className='Welcome'>
-            <h1>Welcome page</h1>
+            <h1>We help ambitious people succeed</h1>
+            <p> We are a CPA firm located in Irvine, CA. We offer a complete solution. Instead of having to go multiple service providers to fulfill your needs, why not keep everything under one roof. We serve a variety of industries, but they do specialize in the real estate, medical and E-commerce industry. Please feel free to contact us so we can help you solve all your financial needs. </p>
             <Playground />
             <Slideshow />
             <Tabbed />

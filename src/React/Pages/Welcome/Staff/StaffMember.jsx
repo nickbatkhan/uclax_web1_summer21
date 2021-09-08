@@ -10,6 +10,7 @@ const StaffMember = ({member}) => {
             <div>
                 <img src={ member.image } alt= {member.name } />
                 <h3>{ member.name }</h3>
+                <p> {member.description}</p>
             </div>
         );
     }
@@ -39,6 +40,10 @@ const StaffMemberStyled = styled.div`
         color: white;
         background-color: maroon;
         padding: 5px;
+    }
+    p {
+        margin: 0px;
+
     }
     
 `;

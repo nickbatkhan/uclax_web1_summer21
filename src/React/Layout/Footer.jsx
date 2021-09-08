@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Footer = () => {
     return <FooterStyled>G&J TAX CPA, INC. &copy; 2021</FooterStyled>
+    
 }
 
 export default Footer;
