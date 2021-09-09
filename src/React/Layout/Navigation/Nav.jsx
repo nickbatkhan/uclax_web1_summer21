@@ -20,7 +20,7 @@ const Nav = () => {
 export default Nav;
 
 const NavStyled = styled.nav`
-    background-color: #005050;
+    background-color: maroon;
     color: white;
     padding: 10px;
     text-align: center;
@@ -29,7 +29,7 @@ const NavStyled = styled.nav`
         display: block;
         margin: 5px 0px;
 
-        background-color: teal;
+        background-color: #440303;
         color: white;
         padding: 10px;
 
@@ -37,12 +37,12 @@ const NavStyled = styled.nav`
         text-transform: uppercase;
 
         &:hover{
-            color: teal;
+            color: maroon;
             background-color: white;
         }
         &.active {
-            color: #003c3c;
-            background-color: #0e2b2b;
+            color: maroon;
+            background-color: white;
         }
     }
     @media ${mediaQueries.mdUp} {

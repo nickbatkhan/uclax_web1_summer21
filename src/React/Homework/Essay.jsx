@@ -15,7 +15,7 @@ export default Essay;
 
 const EssayStyled = styled.div`
     padding: 20px;
-    border: solid 5px teal;
+    border: solid 5px maroon;
     margin: 20px;
 
     h3 { margin: 0px 0px 10px; }

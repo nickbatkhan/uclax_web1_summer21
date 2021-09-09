@@ -21,7 +21,7 @@ export default Tab;
 const TabStyled = styled.div`
     
     padding: 20px;
-    /* background-color: teal; */
+    /* background-color: maroon; */
 
     width: 150px;
     text-align: center;

@@ -45,6 +45,11 @@ const MainStyled = styled.nav`
     background-color: white;
     /* color: white; */
     padding: 10px;
+
+    h1 {
+        color: #883131;
+        /* font-family: "Sofia", sans-serif; */
+    }
     
     /* div {
         border: solid 2px white;

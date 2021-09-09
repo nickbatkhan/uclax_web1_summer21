@@ -28,7 +28,7 @@ const SubmitButton = () => {
 export default SubmitButton;
 
 const SubmitButtonStyled = styled.button`
-    background-color: teal;
+    background-color: maroon;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;

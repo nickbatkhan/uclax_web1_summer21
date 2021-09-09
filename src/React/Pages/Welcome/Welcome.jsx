@@ -23,5 +23,7 @@ const Welcome = () => {
 export default Welcome;
 
 const WelcomeStyled = styled.div`
-    
+    h1 {
+        color: #883131;
+    }
 `;

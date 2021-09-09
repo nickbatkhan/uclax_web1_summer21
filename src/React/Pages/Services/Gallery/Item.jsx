@@ -40,7 +40,7 @@ const ItemStyled = styled.div`
         display: block;
     }
     h3 {
-        background-color: teal;
+        background-color: maroon;
         color: white;
         padding: 5px;
         font-size: 18px;

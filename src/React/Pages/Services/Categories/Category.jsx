@@ -20,13 +20,14 @@ export default Category;
 
 const CategoryStyled = styled.button`
     
-    background-color: teal;
+    background-color: maroon;
     color: white;
     border: none;
     padding: 10px 20px;
     margin: 0px 10px;
 
     &.chosen {
-        background-color: #004343;
+        /* color: maroon; */
+        background-color: #420606;
     }
 `;

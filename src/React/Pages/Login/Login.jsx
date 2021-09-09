@@ -48,5 +48,5 @@ const Login = () => {
 export default Login;
 
 const LoginStyled = styled.div`
-    
+    display: flex
 `;
