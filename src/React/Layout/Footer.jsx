@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footer = () => {
-    return <FooterStyled>G&J TAX CPA, INC. &copy; 2021</FooterStyled>
+    return <FooterStyled>G&J TAX CPA, INC. &copy; 2021 </FooterStyled>
     
 }
 
