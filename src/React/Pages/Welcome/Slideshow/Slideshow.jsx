@@ -6,6 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 import { slidesData } from './slidesData.js';
 import Slide from './Slide.jsx';
+import truncate from 'lodash.truncate';
 
 const Slideshow = () => {
 
@@ -14,7 +15,7 @@ const Slideshow = () => {
             <Carousel
                 showThumbs={ false }
                 showIndicators={ false }
-                autoPlay={ false }
+                autoPlay={ true }
                 infiniteLoop={ true }
                 showArrows={ true }
             >
